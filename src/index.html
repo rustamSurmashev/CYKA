@@ -5,17 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>CYKA</title>
 </head>
 <body>
 
-<div>
-    <h1>CYKA</h1><br>
-    Check
+<div class="container">
+    <h1 class="text-primary">CYKA</h1><br>
+    <p>Check
     Your
     Knowledge
-    Automatically<br>
+        Automatically</p><br>
 
     Узнай по какой теме тебе стоит дополнительно подготовиться перед экзаменом или собеседованием при трудоустройстве!<br>
     ШАГ 1 – выбери категорию, в которой ты хочешь проверить свои знания и навыки<br>
@@ -23,17 +23,30 @@
     ШАГ 3 – получай результаты и готовься!
 
 </div>
-<button id="start" type="button" class="btn btn-primary">Приступить к тесту</button><br>
-<button id="training">Приступить к тренировке</button><br>
-<button id="donat">Задонатить деньги на развитие ресурса</button><br>
-<button id="newTest">Предложить тест</button><br>
+<button id="start" type="button" class="btn btn-primary">Приступить к тесту</button><br><br>
+<button id="training" type="button" class="btn btn-primary">Приступить к тренировке</button><br><br>
+<button id="donat" type="button" class="btn btn-primary">Задонатить деньги на развитие ресурса</button><br><br>
+<button id="newTest" type="button" class="btn btn-primary">Предложить тест</button><br><br>
 
-<ul>Feedback'шная:
-    <li>Лариса Семеновна:<br>После прохождения теста на этом ресурсе я поняла в каком направлении надо дальше изучать программирование! Теперь я работаю в Гугл!</li>
-    <li>Лариса Владимировна:<br>Большое спасибо коллективу CYKA! После прохождения теста я прозрела!</li>
-    <li>Фирдаус:<br>Задонатил миллион рублей! Где тест по татарскому языку???</li>
-</ul>
-
+<ul>Feedback'шная:</ul>
+<div class="card" style="width: 18rem;">
+    <img src="jpeg/Larisa1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text">Лариса Семеновна:<br>После прохождения теста на этом ресурсе я поняла в каком направлении надо дальше изучать программирование! Теперь я работаю в Гугл!</p>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="jpeg/Larisa2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text">Лариса Владимировна:<br>Большое спасибо коллективу CYKA! После прохождения теста я прозрела!</p>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img src="jpeg/Firdaus.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-text">Фирдаус:<br>Задонатил миллион рублей! Где тест по татарскому языку???</p>
+    </div>
+</div>
 
 <ul>Здесь могла быть ваша реклама! <a href="donat.html">Кликайте!</a></ul>
 <script src="js/app.js" type="module"></script>
