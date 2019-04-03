@@ -57,17 +57,17 @@
         return questionsTheme;
     }
 
-    let questionsTheme1Shuffled = mix(questionsTheme1);
-    let questionsTheme2Shuffled = mix(questionsTheme2);
-    let questionsTheme3Shuffled = mix(questionsTheme3);
-    let questionsTheme4Shuffled = mix(questionsTheme4);
-    let questionsTheme5Shuffled = mix(questionsTheme5);
+    let questionsTheme1Mixed = mix(questionsTheme1);
+    let questionsTheme2Mixed = mix(questionsTheme2);
+    let questionsTheme3Mixed = mix(questionsTheme3);
+    let questionsTheme4Mixed = mix(questionsTheme4);
+    let questionsTheme5Mixed = mix(questionsTheme5);
 
-    let questionsTheme1Cutted = questionsTheme1Shuffled.slice(0,3);
-    let questionsTheme2Cutted = questionsTheme2Shuffled.slice(0,3);
-    let questionsTheme3Cutted = questionsTheme3Shuffled.slice(0,3);
-    let questionsTheme4Cutted = questionsTheme4Shuffled.slice(0,3);
-    let questionsTheme5Cutted = questionsTheme5Shuffled.slice(0,3);
+    let questionsTheme1Cutted = questionsTheme1Mixed.slice(0,3);
+    let questionsTheme2Cutted = questionsTheme2Mixed.slice(0,3);
+    let questionsTheme3Cutted = questionsTheme3Mixed.slice(0,3);
+    let questionsTheme4Cutted = questionsTheme4Mixed.slice(0,3);
+    let questionsTheme5Cutted = questionsTheme5Mixed.slice(0,3);
 
     let questions = questionsTheme1Cutted.concat(questionsTheme2Cutted, questionsTheme3Cutted, questionsTheme4Cutted, questionsTheme5Cutted);
 
