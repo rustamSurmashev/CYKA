@@ -158,7 +158,13 @@
 <button id="start" onclick="check(0)">Приступить к тесту</button>
 <script type="text/javascript"> let curent_url = document.URL;
 document.write("<a id='end' style='display: none;' href='" + curent_url + "'>Начать сначала</a>"); </script>
-
+<button id="bonus">Устал? Получи заряд мотивации</button><br><br>
+<script type="text/javascript">
+    let bonusEl = document.getElementById('bonus');
+    bonusEl.addEventListener('click', ()=> {
+        document.location.href = 'bonus.html';
+    });
+</script>
 
 </body>
 </html>
