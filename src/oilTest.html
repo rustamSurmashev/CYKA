@@ -5,27 +5,28 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>ТЕСТ по нефтяной промышленности</title>
 </head>
 <body>
 
-<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="time">Затрачено времени: 0 сек</p>
-<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="result"></p>
-<p style="font-size: 38px;font-weight: bold;padding-top: 2px;" id="question"></p>
+<p id="time" class="text-primary">Затрачено времени: 0 сек</p>
+<p id="result" class="text-primary"></p>
+<p id="question" class="text-primary"></p>
 
-<button id="answer1"></button>
-<button id="answer2"></button>
-<button id="answer3"></button>
-<button id="answer4"></button>
+<button id="answer1" type="button" class="btn btn-primary"></button>
+<button id="answer2" type="button" class="btn btn-primary"></button>
+<button id="answer3" type="button" class="btn btn-primary"></button>
+<button id="answer4" type="button" class="btn btn-primary"></button>
 <br>
 
-<button id="start">Приступить к тесту</button>
-
+<button id="start" type="button" class="btn btn-primary">Приступить к тесту</button>
+<br><br><br><br>
 <script>
     let curent_url = document.URL;
-    document.write("<a id='end' style='display: none;' href='" + curent_url + "'>Начать сначала</a>"); </script>
-<button id="bonus">Устал? Получи заряд мотивации</button><br><br>
+    document.write("<a id='end' style='display: none;' href='" + curent_url + "'>Начать сначала</a>");
+</script><br>
+<button id="bonus" type="button" class="btn btn-primary">Устал? Получи заряд мотивации</button><br><br>
 
 <script>
     let bonusEl = document.getElementById('bonus');
