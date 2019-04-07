@@ -6,19 +6,40 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="donat.css">
     <title>Внесение денег</title>
 </head>
 <body>
-<h5 class="text-primary">Введите имя и фамилию:</h5>
-<input id="name" type="text" required>
-<h5 class="text-primary">Введите номер банковской карты:</h5>
-<input id="number" type="number" required>
-<h5 class="text-primary">Введите срок действия банковской карты:</h5>
-<input id="valid" type="number" required>
-<h5 class="text-primary">Введите pin-code банковской карты:</h5>
-<input id="pin" type="number" required><br><br>
-<button id="newTest" type="button" class="btn btn-primary">Отправить</button><br><br>
-<h5 class="text-primary">Спасибо!</h5>
+<form id="cardForm">
+    <div class="text-input">
+        <h5 class="text-primary">Введите имя и фамилию:</h5>
+        <div>
+            <input id="userName" name="y-name" type="text" required placeholder="Ivan Ivanov">
+        </div>
+    </div>
 
+    <div class="text-input">
+        <h5 class="text-primary">Введите номер банковской карты:</h5>
+        <input id="cardCode" required pattern="[0-9]{4}\s[0-9]{4}\s[0-9]{4}\s[0-9]{4}" placeholder="XXXX XXXX XXXX XXXX">
+        <!--<input type=hidden name=number value="">-->
+    </div>
+
+
+    <div class="text-input">
+        <h5 class="text-primary">Введите срок действия банковской карты:</h5>
+        <input id="expDate" required minlength="5" maxlength="5" placeholder="_ _/_ _">
+    </div>
+
+    <div class="text-input">
+        <h5 class="text-primary">Введите CVC-code банковской карты:</h5>
+        <input id="cvcCode" required placeholder="XXX" maxlength="3" pattern="[0-9]{3}" ><br>
+    </div>
+
+    <div class="button">
+        <button id="confirmButton" type="button" class="btn btn-primary">Отправить</button>
+    </div>
+</form>
+
+<script src="js/donat.js" type="module"></script>
 </body>
 </html>
