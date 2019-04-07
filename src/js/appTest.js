@@ -1,3 +1,13 @@
+let donatEl = document.getElementById('donat');
+let newTestEl = document.getElementById('newTest');
+
+donatEl.addEventListener('click', ()=>{
+    document.location.href = 'donat.html';
+});
+newTestEl.addEventListener('click', ()=>{
+    document.location.href = 'newTest.html';
+});
+
 let programmingEl = document.getElementById('programming');
 let physicsEl = document.getElementById('physics');
 let chimistryEl = document.getElementById('chimistry');
@@ -13,55 +23,43 @@ let literatureEl = document.getElementById('literature');
 let lowEl = document.getElementById('low');
 
 programmingEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 physicsEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 chimistryEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 oilEl.addEventListener('click', ()=>{
     document.location.href = 'oilTest.html';
 });
 sportEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 phylosophyEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 historyEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 mathEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 geographyEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 medicineEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 journalismEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 literatureEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 lowEl.addEventListener('click', ()=>{
-    alert('Тест по данному направлению в работе.' +
-        'Ты можешь ускорить процесс, задонатив нам денег.');
+    document.location.href = 'empty.html';
 });
 
 
