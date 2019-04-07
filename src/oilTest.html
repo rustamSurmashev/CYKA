@@ -22,18 +22,16 @@
 
 <button id="start" type="button" class="btn btn-primary">Приступить к тесту</button>
 <br><br><br><br>
+
+<button id="bonus" type="button" class="btn btn-primary">Устал? Получи заряд мотивации</button><br><br>
+<button id="hint" type="button" class="btn btn-primary">Подсказка</button><br><br>
 <script>
     let curent_url = document.URL;
     document.write("<a id='end' style='display: none;' href='" + curent_url + "'>Начать сначала</a>");
 </script><br>
-<button id="bonus" type="button" class="btn btn-primary">Устал? Получи заряд мотивации</button><br><br>
 
-<script>
-    let bonusEl = document.getElementById('bonus');
-    bonusEl.addEventListener('click', ()=> {
-        document.location.href = 'bonus.html';
-    });
-</script>
 <script src="js/appOilTest.js" type="module"></script>
+<script src="js/bonus.js" type="module"></script>
+<script src="js/hint.js" type="module"></script>
 </body>
 </html>
