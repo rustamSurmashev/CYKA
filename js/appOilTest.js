@@ -98,11 +98,11 @@ function check(num) {
 
     if (num == 0) {
 
-        document.getElementById('answer1').style.display = 'none';
-        document.getElementById('answer2').style.display = 'none';
-        document.getElementById('answer3').style.display = 'none';
-        document.getElementById('answer4').style.display = 'none';
-        document.getElementById('question').style.display = 'none';
+        document.getElementById('answer1').style.display = 'block';
+        document.getElementById('answer2').style.display = 'block';
+        document.getElementById('answer3').style.display = 'block';
+        document.getElementById('answer4').style.display = 'block';
+        document.getElementById('question').style.display = 'block';
 
         document.getElementById('answer1').innerHTML = questions[cur_answer][1];
         document.getElementById('answer2').innerHTML = questions[cur_answer][2];
