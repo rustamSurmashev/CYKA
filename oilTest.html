@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ТЕСТ по нефтяной промышленности</title>
+</head>
+<body>
+
+<p id="time">Затрачено времени: 0 сек</p>
+<p id="result"></p>
+<p id="question"></p>
+
+<button id="answer1"></button>
+<button id="answer2"></button>
+<button id="answer3"></button>
+<button id="answer4"></button>
+<br>
+
+<button id="start">Приступить к тесту</button>
+<br><br><br><br>
+
+<script>
+    let curent_url = document.URL;
+    document.write("<a id='end' style='display: none;' href='" + curent_url + "'>Начать сначала</a>");
+</script><br>
+<script src="js/appOilTest.js" type="module"></script>
+
+</body>
+</html>
