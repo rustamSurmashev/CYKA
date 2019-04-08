@@ -1,0 +1,28 @@
+input {
+    padding-left: 10px;
+}
+
+input:invalid {
+    border: 3px solid yellow;
+}
+
+input:valid {
+    border: 2px solid blue;
+}
+
+form{
+    padding-top: 50px;
+    text-align: center;
+}
+
+form #userName {
+    text-transform: uppercase;
+}
+
+form .text-input {
+    padding-top: 10px;
+}
+
+form .button {
+    padding-top: 20px;
+}
