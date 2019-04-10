@@ -23,6 +23,11 @@ answer4El.addEventListener("click", () => {
     check(4);
 });
 
+answer1El.style.display = "none";
+answer2El.style.display = "none";
+answer3El.style.display = "none";
+answer4El.style.display = "none";
+
 let questionsTheme1 = [
     ["Нефть – это смесь, состоящая", "Только из жидких углеводородов", "Только из газообразных углеводородов", "Только из твердых углеводородов", "Из жидких и растворенных в них газообразных и твердых углеводородов", 4],
     ["Укажите свойство, которое не относится к нефти", "Легче воды", "Растворима в воде", "Густая темная жидкость", "Не имеет постоянной температуры кипения", 2],
@@ -119,8 +124,10 @@ function check(num) {
 
         if (num == questions[cur_answer][5]) {
             plus++;
+            document.getElementById('result').style.color = "#16a085";
             document.getElementById('result').innerHTML = 'Верно!';
         } else {
+            document.getElementById('result').style.color = "red";
             document.getElementById('result').innerHTML = "Неверно! Правильный ответ: " + questions[cur_answer][questions[cur_answer][5]];
         }
 

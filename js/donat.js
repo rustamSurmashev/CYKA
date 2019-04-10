@@ -2,7 +2,8 @@ let userNameEl = document.getElementById("userName");
 let cardCodeEl = document.getElementById("cardCode");
 let expDateEl = document.getElementById("expDate");
 let cvcCodeEl = document.getElementById("cvcCode");
-let confirmButtonEl = document.getElementById("confirmButton");
+
+
 //Поле ввода имени
 userNameEl.addEventListener('keypress',  (e) => {
     // let userName = this.value.replace (/[^\D]/g, '');
@@ -42,13 +43,3 @@ cvcCodeEl.addEventListener('input', formatCvcCode, false);
 function formatCvcCode() {
     this.value = this.value.replace (/[^\d]/g, '');
 }
-
-
-//Отправить форму
-
-confirmButtonEl.addEventListener('click', () => {
-
-    //TODO: Валидация формы
-
-    alert("Спасибо!");
-});

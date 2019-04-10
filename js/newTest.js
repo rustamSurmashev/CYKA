@@ -5,7 +5,7 @@ let newAnswerEl = document.getElementById('newAnswer');
 let newWrongAnswer1El = document.getElementById('newWrongAnswer1');
 let newWrongAnswer2El = document.getElementById('newWrongAnswer2');
 let newWrongAnswer3El = document.getElementById('newWrongAnswer3');
-let newTestEl = document.getElementById('newTest');
+let confirmButtonEl = document.getElementById('confirmButton');
 class Question {
    constructor (theme, subtheme, question, answer, wrongAnswer1, wrongAnswer2, wrongAnswer3) {
       this.theme = theme;
@@ -17,7 +17,7 @@ class Question {
       this.wrongAnswer3 = wrongAnswer3;
    }};
 
-newTestEl.addEventListener('click', ()=>{
+confirmButtonEl.addEventListener('click', ()=>{
 let questionForCheck = new Question(newThemeEl.value, newSubThemeEl.value, newQuestionEl.value, newAnswerEl.value, newWrongAnswer1El.value, newWrongAnswer2El.value, newWrongAnswer3El.value);
 console.log(questionForCheck);
 });
