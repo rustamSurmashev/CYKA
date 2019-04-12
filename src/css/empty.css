@@ -1,10 +1,10 @@
 * {
     margin: 0;
     background-image:
-            url("../img/home-background.jpg");
-            url("../img/empty.png");
+            url("../img/empty.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+    background-opacity: 0.1;
 
 }
