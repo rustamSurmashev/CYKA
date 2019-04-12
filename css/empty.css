@@ -1,6 +1,10 @@
 * {
-    background: url("../img/nerd.jpg");
+    margin: 0;
+    background-image:
+            url("../img/home-background.jpg");
+            url("../img/empty.png");
     background-repeat: no-repeat;
-    background-position: center center;
-    opacity: 50%;
+    background-position: center top;
+    background-size: cover;
+
 }
