@@ -1,4 +1,5 @@
 let newThemeEl = document.getElementById('newTheme');
+let showEl = document.getElementById('show');
 let newSubThemeEl = document.getElementById('newSubTheme');
 let newQuestionEl = document.getElementById('newQuestion');
 let newAnswerEl = document.getElementById('newAnswer');
