@@ -1,4 +1,6 @@
 html, body {
     margin: 0;
     background-image: url("../img/home-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

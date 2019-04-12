@@ -1,12 +1,13 @@
 html, body {
-      background-image: url("../img/home-background.jpg");
+    background-image: url("../img/home-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .panel {
     overflow: hidden;
     background-color: #2F4F4F;
     height: 60px;
 }
-
 #logotype {
     color: white;
     position: absolute;
@@ -15,9 +16,7 @@ html, body {
     font-size: 25px;
     margin-top: 15px;
 }
-
 .panel .app-button {
-    /*background: url('../img/dollar.svg');*/
     position: relative;
     display: inline-block;
     font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
@@ -31,56 +30,36 @@ html, body {
     outline: none;
     border: none;
     border-radius: 3px;
-    /*background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);*/
     background: #16a085;
-    /*box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;*/
     margin-top: 13px;
     left: 80%;
-    /*-webkit-animation: pulsate 1.2s linear infinite;*/
 }
-
 .panel #donateButton {
     animation: pulsate 1.2s linear infinite;
     margin-left: 10px;
 }
-
 .panel .app-button:hover {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
     cursor: pointer;
 }
-
 .panel .app-button:active {
     top: 1px;
     color: #fff;
     text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
     box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
 }
-
 @-webkit-keyframes pulsate {
     50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
 }
 @keyframes pulsate {
     50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
 }
-
 .content {
     text-align: center;
 }
-
 .content-inside {
     font-weight: 700;
     font-size: 21px;
     margin-top: 115px;
 }
-
-
-/*.footer {*/
-    /*position: fixed; !* Фиксированное положение *!*/
-    /*left: 0; bottom: 0; !* Левый нижний угол *!*/
-    /*padding: 10px; !* Поля вокруг текста *!*/
-    /*background: #39b54a; !* Цвет фона *!*/
-    /*color: #fff; !* Цвет текста *!*/
-    /*width: 100%; !* Ширина слоя *!*/
-/*}*/
-
